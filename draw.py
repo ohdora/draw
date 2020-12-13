@@ -21,7 +21,9 @@ def draw():
             n = random.choice(numbers)  # Выбор бочонка
             print(f'Выпал бочонок под номером {n}!')
             numbers.remove(n)  # Исключение уже выпавших бочонков из ряда выбора
+
     print('\nПрограмма завершена!')
+
 
 if __name__ == "__main__":
     draw()
